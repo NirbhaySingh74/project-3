@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #221f14;
+}
+/* Navbar */
+nav {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-list li {
+   
+    padding: 4px 20px;
+}
+
+.nav-list li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #8e8679;
+
+}
+
+.nav-btn {
+    font-size: 22px;
+    color: #908346;
+    background: transparent;
+    border: 2px solid #908346;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Hero-Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+ 
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+.hero-header h1 {
+   font-family: sans-serif;
+   color: #ffffff;
+   font-size: 60px;
+   width: 100%;
+   margin-left: -100px;
+   letter-spacing: 2px;
+}
+.hero-header p {
+    line-height: 34px;
+    font-size: 23px;
+    color: #cdc5b8;
+    padding-top: 10px;
+   margin-left: 90px;
+   margin-right: 20px;
+}
+.hero-img {
+    margin-top: 10px;
+    background-image: url('../assets/pexels-ekaterina-bolovtsova-6077326.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-left: -100px;
+    
+}
+
+/* Hero Bottom */
+.hero-bottom {
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+
+.left-btn,.right-btn{
+    height: 120px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-btn i{
+    font-size: 25px;
+    border: 2px solid #a18f37;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.right-btn{
+    background-color: #a18f37;
+    color: #ffffff;
+    
+}
+
+.right-btn i{
+    font-size: 25px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
